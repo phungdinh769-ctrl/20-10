@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chúc mừng 20/10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hiệu ứng nền -->
+  <canvas id="fx" aria-hidden="true"></canvas>
+
+  <div class="wrapper">
+    <header class="hero card glass">
+      <h1 class="title">Chúc mừng Ngày Phụ nữ Việt Nam 20/10 🌸</h1>
+      <p class="subtitle">Gửi đến bạn những điều ngọt ngào nhất 💖</p>
+
+      <div class="typewriter card">
+        <span id="typewriter"></span>
+        <span class="caret">|</span>
+      </div>
+    </header>
+
+    <main>
+      <!-- Ảnh kỷ niệm ở giữa trang (không tiêu đề) -->
+      <section class="card photo glass">
+        <img src="assets/memory.jpg" alt="Ảnh kỷ niệm" class="memory-img" />
+      </section>
+
+      <section class="card share glass">
+        <h2>Chia sẻ</h2>
+        <p>Hãy chia sẻ trang nhỏ này đến người bạn muốn gửi lời chúc 💌</p>
+        <div class="share-row">
+          <a class="btn" href="#" onclick="navigator.clipboard.writeText(window.location.href); alert('Đã sao chép đường link!'); return false;">🔗 Sao chép link</a>
+          <button id="toggleFx" class="btn">✨ Tắt/Bật hiệu ứng</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Made with 💗 — by Dinh</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="effects.js"></script>
+</body>
+</html>
