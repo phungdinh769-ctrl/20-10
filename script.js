@@ -1,9 +1,8 @@
 // Typewriter effect
 const messages = [
-  "Chúc bạn luôn xinh đẹp và rực rỡ như những đóa hoa hồng 🌹",
-  "Mong bạn luôn được yêu thương, an yên và mỉm cười mỗi ngày ✨",
-  "20/10 thật rộn ràng — nhận thật nhiều hoa, quà và lời chúc 💝",
-  "Bạn xứng đáng có một ngày thiệt đặc biệt! 💐"
+  "Chúc chị luôn xinh đẹp và rực rỡ như những đóa hoa hồng 🌹",
+  "Mong chị luôn được yêu thương, an yên và mỉm cười mỗi ngày ✨",
+  "Mãi iu chị 💝",
 ];
 
 const el = document.getElementById('typewriter');
